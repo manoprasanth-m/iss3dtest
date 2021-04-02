@@ -45,7 +45,7 @@ const app = new pc.Application(canvas, {
   elementInput: new pc.ElementInput(canvas),
   keyboard: new pc.Keyboard(canvas),
   mouse: new pc.Mouse(canvas),
-  touch: 'ontouchstart' in window ? new pc.TouchDevice(canvas)});
+  touch: 'ontouchstart' in window ? new pc.TouchDevice(canvas) : null });
 
 app.start();
 app.loader.getHandler('texture').crossOrigin = 'anonymous';
