@@ -18,14 +18,11 @@ canvas {
   height: 100%;
 }
 
-#logo {
+#video {
   z-index: 2;
   position: fixed;
   padding: 24px;
   top: 0;
   right: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
