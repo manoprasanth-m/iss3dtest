@@ -23,5 +23,6 @@ canvas {
   position: absolute;
   top: 0;
   right: 0;
+  border: 4px transparent #454545;
   user-select: none;
 }
