@@ -19,8 +19,8 @@ canvas {
 }
 
 #video {
-  z-index: 0;
-  position: absolute;
+  z-index: 2;
+  position: relative;
   top: 0;
   right: 0;
   border-radius: 1px;
