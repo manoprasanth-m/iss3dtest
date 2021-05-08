@@ -21,7 +21,7 @@ canvas {
 #video {
   z-index: 2;
   position: absolute;
-  padding: 24px;
+  padding-bottom: 56.25%;
   top: 0;
   right: 0;
   user-select: none;
