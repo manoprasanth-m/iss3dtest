@@ -20,7 +20,7 @@ canvas {
 
 #video {
   z-index: 2;
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   border-radius: 1px;
